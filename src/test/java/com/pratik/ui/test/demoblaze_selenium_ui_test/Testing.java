@@ -40,5 +40,7 @@ public class Testing {
         SelenideElement deleteRow = $$("#tbodyid > tr").find(Condition.text("Dell i7 8gb"));
         deleteRow.findElement(By.linkText("Delete")).click();
         sleep(page.WAIT_TIME);
+        page.placeOrder.click();
+        sleep(page.WAIT_TIME);
     }
 }

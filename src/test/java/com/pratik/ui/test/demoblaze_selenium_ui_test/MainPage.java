@@ -13,6 +13,7 @@ public class MainPage {
     public SelenideElement addToCartButton =$x("//a[contains(text(),'Add to cart')]");
     public SelenideElement dellLink = $x("//a[contains(text(),'Dell i7 8gb')]");
     public SelenideElement cartLink = $x("//a[@id='cartur']");
+    public SelenideElement placeOrder = $x("//button[contains(text(),'Place Order')]");
     public final String URL= "https://demoblaze.com/";
     public final long WAIT_TIME = 3000;
 
